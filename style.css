@@ -1,0 +1,129 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-color: 474443;
+}
+
+.navbar-nav{
+    font-size:125%;
+}
+
+#banner{
+    width:100%;
+    height:92vh;
+    object-fit: cover;
+    position: relative;
+}
+
+#header > h1{
+    font-size:4em;
+    font-weight: bold;
+    position:absolute;
+    top:30%;
+    left:15%;
+    color:white;
+    text-shadow: 2px 2px 3px gray;
+}
+
+#about{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    position:absolute;
+    top:85%;
+}
+
+.box{
+    font-size:125%;
+    padding:2%;
+    background-color:#b6c6ca;
+    color:white;
+    text-align: justify;
+    width:30%;
+    border-radius: 20px;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    margin-bottom:4%;
+}
+
+#product{
+    margin-top:10%;
+    padding:5%;
+    text-align: center;
+}
+
+#product > h2{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 5%;
+    color:#ecdab3;
+}
+
+.col-lg-4 > p, .col-lg-12>p {
+    font-size:1.5em;
+    color:whitesmoke;
+}
+
+.col-lg-4, .col-lg-12{
+    padding:2%;
+}
+
+.mid{
+    border-right:2px solid #ecdab3;
+    border-left: 2px solid #ecdab3;
+}
+
+.line{
+    border-bottom:2px solid #ecdab3;
+}
+
+.row{
+    padding:2%;
+}
+
+iframe{
+    width:800px;
+    height:500px;
+}
+
+.booth{
+    text-align: center;
+    padding:3%;
+    background-color:#474443;
+    margin-top:-5%;
+}
+
+.booth > h2{
+    margin-bottom:3%;
+    color:#ecdab3;
+    font-size:3em;
+    font-weight: bold;
+}
+
+#partner{
+    text-align: center;
+}
+
+.company{
+    width:90px;
+    height:50px;
+
+}
+
+.one{
+    height:80px;
+    width:80px;
+}
+
+#brand{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
