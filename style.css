@@ -3,9 +3,11 @@
 }
 
 body{
-    background-color: 474443;
+    background-color: #404042;
 }
-
+.navbar{
+    background-color: white;
+}
 .navbar-nav{
     font-size:125%;
 }
@@ -17,13 +19,30 @@ body{
     position: relative;
 }
 
+#brands{
+    width:500px;
+    height:300px;
+    position: absolute;
+    right:5%;
+    top:27%;
+    border-radius: 20px;
+    padding:2%;
+    background-color: white;
+    opacity: 0.9;
+}
+
+#logo{
+    width:30%;
+    margin-right: 3%;
+}
+
 #header > h1{
     font-size:4em;
     font-weight: bold;
     position:absolute;
     top:30%;
-    left:15%;
-    color:white;
+    left:7%;
+    color:beige;
     text-shadow: 2px 2px 3px gray;
 }
 
@@ -39,7 +58,7 @@ body{
 .box{
     font-size:125%;
     padding:2%;
-    background-color:#b6c6ca;
+    background-color:rgba(0,0,0,0.5);
     color:white;
     text-align: justify;
     width:30%;
@@ -52,36 +71,57 @@ body{
     margin-bottom:4%;
 }
 
+
+
+#video{
+    margin-top:13%;
+    margin-left:5%;
+    margin-bottom:5%;
+
+}
+
+.address{
+    padding:3%;
+    padding-top:1%;
+    font-size:1.5em;
+    color:white;
+}
+
+.address>h3{
+    font-size:1.75em;
+    font-weight: bolder;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: black;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    top:50%;
+}
+
 #product{
-    margin-top:10%;
-    padding:5%;
+    margin-top:1%;
+    padding:2%;
     text-align: center;
+    background-color: beige;
+    height:800px;
+    margin-bottom:2%;
+}
+
+.poster{
+    height:90%;
+    width:550px;
+
 }
 
 #product > h2{
     font-size: 3em;
-    font-weight: bold;
-    margin-bottom: 5%;
-    color:#ecdab3;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    color:#294e75;
 }
 
-.col-lg-4 > p, .col-lg-12>p {
-    font-size:1.5em;
-    color:whitesmoke;
-}
-
-.col-lg-4, .col-lg-12{
-    padding:2%;
-}
-
-.mid{
-    border-right:2px solid #ecdab3;
-    border-left: 2px solid #ecdab3;
-}
-
-.line{
-    border-bottom:2px solid #ecdab3;
-}
 
 .row{
     padding:2%;
@@ -95,13 +135,11 @@ iframe{
 .booth{
     text-align: center;
     padding:3%;
-    background-color:#474443;
-    margin-top:-5%;
 }
 
 .booth > h2{
     margin-bottom:3%;
-    color:#ecdab3;
+    color:#fe9160;
     font-size:3em;
     font-weight: bold;
 }
@@ -121,9 +159,67 @@ iframe{
     width:80px;
 }
 
-#brand{
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
+
+#footer{
+    text-align: center;
+    margin-bottom:3%;
+    color:#fe9160;
 }
+
+
+
+
+/* .carousel-inner {
+    padding: 1em;
+  }
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: black;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.card{
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+} */
+
+#end{
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    background-color:#404042;
+}
+
+
+
+/* @media screen and (min-width:768px){
+    .carousel-inner{
+        display:flex;
+    }
+    .carousel-item{
+        margin-right:0;
+        flex:0 0 33.33%;
+        display:block;
+    }
+
+    .card .img-wrapper {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card  {
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card .img-wrapper {
+      height: 17em;
+    }
+  } */
