@@ -166,7 +166,10 @@ iframe{
     color:#fe9160;
 }
 
-
+iframe{
+    width:700px;
+    height:500px;
+}
 
 
 /* .carousel-inner {
@@ -193,6 +196,54 @@ iframe{
     margin-top: 6%;
     margin-bottom: 2%;
     background-color:#404042;
+}
+
+@media screen and (max-width:768px){
+    #brands{
+        width:300px;
+        height:200px;
+        top:35%;
+        left: 5%;
+    }
+   #header > h1{
+        font-size:2.2em;
+        top:15%;
+
+    }
+
+    #banner{
+        height:600px;
+    }
+
+    #about{
+        display:inline-block;
+        position:relative;
+        top:5%;
+        text-align: center;
+    }
+
+    .box{
+        width:70%;
+        margin:2%;
+        margin-left:15%;
+    }
+
+    video{
+        width:400px;
+        height:300px;
+        margin-bottom:3%;
+    }
+    .poster{
+        width:400px;
+        height:500px;
+    }
+    #product{
+        height:650px;
+    }
+    #walk{
+        width:400px;
+        height:400px;
+    }
 }
 
 
@@ -223,3 +274,4 @@ iframe{
       height: 17em;
     }
   } */
+
