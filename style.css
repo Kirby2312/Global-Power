@@ -2,9 +2,7 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-body{
-    background-color: #404042;
-}
+
 .navbar{
     background-color: white;
 }
@@ -14,7 +12,7 @@ body{
 
 #banner{
     width:100%;
-    height:92vh;
+    height:100vh;
     object-fit: cover;
     position: relative;
 }
@@ -23,8 +21,8 @@ body{
     width:500px;
     height:300px;
     position: absolute;
-    right:5%;
-    top:27%;
+    right:6%;
+    top:33%;
     border-radius: 20px;
     padding:2%;
     background-color: white;
@@ -37,7 +35,7 @@ body{
 }
 
 #header > h1{
-    font-size:4em;
+    font-size:3.5em;
     font-weight: bold;
     position:absolute;
     top:30%;
@@ -45,24 +43,21 @@ body{
     color:beige;
     text-shadow: 2px 2px 3px gray;
 }
-
 #about{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
     text-align: center;
-    position:absolute;
-    top:85%;
+    padding:4%;
+    background-color: beige;
 }
 
-.box{
-    font-size:125%;
+
+.vision{
+    font-size:1.25em;
     padding:2%;
-    background-color:rgba(0,0,0,0.5);
-    color:white;
+}
+
+
+.vision > p{
     text-align: justify;
-    width:30%;
-    border-radius: 20px;
 }
 
 .icon{
@@ -71,207 +66,178 @@ body{
     margin-bottom:4%;
 }
 
-
-
-#video{
-    margin-top:13%;
-    margin-left:5%;
-    margin-bottom:5%;
-
+.carousel{
+    text-align:center;
 }
 
-.address{
-    padding:3%;
-    padding-top:1%;
-    font-size:1.5em;
-    color:white;
-}
-
-.address>h3{
-    font-size:1.75em;
-    font-weight: bolder;
-}
-
-.carousel-control-prev, .carousel-control-next{
-    background-color: black;
-    width:40px;
-    height:40px;
-    border-radius: 50%;
-    top:50%;
+.product{
+    width:400px;
+    height:500px;
 }
 
 #product{
-    margin-top:1%;
-    padding:2%;
+    padding:3%;
     text-align: center;
+    width:50%;
     background-color: beige;
-    height:800px;
-    margin-bottom:2%;
 }
 
-.poster{
-    height:90%;
-    width:550px;
-
+.carousel-control-prev, .carousel-control-next{
+    background-color: rgba(0,0,0,0.5);
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    top:40%;
 }
 
-#product > h2{
-    font-size: 3em;
-    font-weight: bolder;
-    margin-bottom: 2%;
-    color:#294e75;
+#catalogue{
+    display:flex;
+    flex-direction:wrap;
 }
 
+#desc{
+    padding:3%;
+    padding-left: 5%;
+    width:50%;
+    line-height: 35px;
+    background-color: beige;
+    color:#393939;
+}
 
-.row{
-    padding:2%;
+#desc>ol{
+    font-size: 1.25em;
+}
+
+#booth{
+    padding:5%;
+    text-align: center;
+    background-color: #393939;
+}
+
+#booth>h2{
+  color:beige;
 }
 
 iframe{
-    width:800px;
-    height:500px;
+    width:70%;
+    height:600px;
+    margin-top:3%;
 }
-
-.booth{
-    text-align: center;
-    padding:3%;
-}
-
-.booth > h2{
-    margin-bottom:3%;
-    color:#fe9160;
-    font-size:3em;
-    font-weight: bold;
-}
-
-#partner{
-    text-align: center;
-}
-
-.company{
-    width:90px;
-    height:50px;
-
-}
-
-.one{
-    height:80px;
-    width:80px;
-}
-
 
 #footer{
+    display:flex;
+    flex-direction: row;
+}
+
+
+#video{
+    width:50%;
+    padding:3%;
+    background-color:#393939;
+}
+
+video{
+    width:100%;
+    height:400px;
+}
+
+#address{
+    color:white;
+    width:50%;
+    padding: 5%;
+    background-color:#393939;
+
+}
+
+#address>h2{
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+#address>p{
+    font-size: 1.25em;
+    color:beige;
+}
+
+#album>#last{
+    font-size: 15px;
     text-align: center;
-    margin-bottom:3%;
-    color:#fe9160;
+    padding-top:2%;
 }
 
-iframe{
-    width:700px;
-    height:500px;
+#album{
+    padding:2%;
+    background-color: beige;
 }
 
+#albumIn{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
 
-/* .carousel-inner {
-    padding: 1em;
-  }
+#albumIn > div{
+    padding:1%;
+}
 
-.carousel-control-prev, .carousel-control-next {
-    background-color: black;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+.albumpic{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+}
 
-.card{
-    margin: 0 0.5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border: none;
-} */
-
-#end{
-    width: 100%;
-    margin-top: 6%;
-    margin-bottom: 2%;
-    background-color:#404042;
+#album > h2{
+    text-align: left;
+    padding-bottom:2%;
+    padding-left:3%;
+    font-weight: bold;
+    padding-top:3%;
 }
 
 @media screen and (max-width:768px){
-    #brands{
-        width:300px;
-        height:200px;
-        top:35%;
-        left: 5%;
-    }
-   #header > h1{
-        font-size:2.2em;
+    #header > h1{
+        font-size:1.7em;
         top:15%;
-
     }
 
-    #banner{
-        height:600px;
-    }
-
-    #about{
-        display:inline-block;
-        position:relative;
-        top:5%;
-        text-align: center;
-    }
-
-    .box{
+    #brands{
         width:70%;
-        margin:2%;
-        margin-left:15%;
+        height:200px;
+        left:5%;
+        top:45%;
+
+    }
+    #catalogue{
+        display:inline-block;
+        width:100%;
     }
 
-    video{
-        width:400px;
-        height:300px;
-        margin-bottom:3%;
+    #product,#desc{
+        width:100%;
+        margin:0;
+        padding:5%;
+        padding-top:7%;
+        padding-bottom:7%;
     }
-    .poster{
-        width:400px;
-        height:500px;
-    }
-    #product{
-        height:650px;
+    #booth{
+        height: 500px;
     }
     #walk{
-        width:400px;
+        width:100%;
         height:400px;
+        padding-bottom:5%;
     }
+
+    #footer{
+        display:inline-block;
+    }
+    #video, #address{
+        width:100%;
+        padding:5%;
+    }
+
+    .navbar>#logo{
+      width:70%;
+    }
+
 }
-
-
-
-/* @media screen and (min-width:768px){
-    .carousel-inner{
-        display:flex;
-    }
-    .carousel-item{
-        margin-right:0;
-        flex:0 0 33.33%;
-        display:block;
-    }
-
-    .card .img-wrapper {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .card  {
-        max-height: 100%;
-    }
-}
-
-@media (max-width: 767px) {
-    .card .img-wrapper {
-      height: 17em;
-    }
-  } */
-

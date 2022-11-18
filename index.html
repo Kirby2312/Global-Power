@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Global Power</title>
+        <link rel="icon" href="top.png">
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,11 +17,256 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="style.css">
+       <!-- <style>
+          *{
+            font-family: 'Source Sans Pro', sans-serif;
+        }
 
-        <!-- <script src="script.js"></script> -->
+
+        .navbar{
+            background-color: white;
+        }
+        .navbar-nav{
+            font-size:125%;
+        }
+
+        #banner{
+            width:100%;
+            height:100vh;
+            object-fit: cover;
+            position: relative;
+        }
+
+        #brands{
+            width:500px;
+            height:300px;
+            position: absolute;
+            right:6%;
+            top:33%;
+            border-radius: 20px;
+            padding:2%;
+            background-color: white;
+            opacity: 0.9;
+        }
+
+        #logo{
+            width:30%;
+            margin-right: 3%;
+        }
+
+        #header > h1{
+            font-size:3.5em;
+            font-weight: bold;
+            position:absolute;
+            top:30%;
+            left:7%;
+            color:beige;
+            text-shadow: 2px 2px 3px gray;
+        }
+        #about{
+            text-align: center;
+            padding:4%;
+            background-color: beige;
+        }
+
+
+        .vision{
+            font-size:1.25em;
+            padding:2%;
+        }
+
+
+        .vision > p{
+            text-align: justify;
+        }
+
+        .icon{
+            width:50px;
+            height:50px;
+            margin-bottom:4%;
+        }
+
+        .carousel{
+            text-align:center;
+        }
+
+        .product{
+            width:400px;
+            height:500px;
+        }
+
+        #product{
+            padding:3%;
+            text-align: center;
+            width:50%;
+            background-color: beige;
+        }
+
+        .carousel-control-prev, .carousel-control-next{
+            background-color: rgba(0,0,0,0.5);
+            border-radius:50%;
+            width:50px;
+            height:50px;
+            top:40%;
+        }
+
+        #catalogue{
+            display:flex;
+            flex-direction:wrap;
+        }
+
+        #desc{
+            padding:3%;
+            padding-left: 5%;
+            width:50%;
+            line-height: 35px;
+            background-color: beige;
+            color:#393939;
+        }
+
+        #desc>ol{
+            font-size: 1.25em;
+        }
+
+        #booth{
+            padding:5%;
+            text-align: center;
+            background-color: #393939;
+        }
+
+        #booth>h2{
+          color:beige;
+        }
+
+        iframe{
+            width:70%;
+            height:600px;
+            margin-top:3%;
+        }
+
+        #footer{
+            display:flex;
+            flex-direction: row;
+        }
+
+
+        #video{
+            width:50%;
+            padding:3%;
+            background-color:#393939;
+        }
+
+        video{
+            width:100%;
+            height:400px;
+        }
+
+        #address{
+            color:white;
+            width:50%;
+            padding: 5%;
+            background-color:#393939;
+
+        }
+
+        #address>h2{
+            font-weight: bold;
+            padding-bottom: 2%;
+        }
+
+        #address>p{
+            font-size: 1.25em;
+            color:beige;
+        }
+
+        #album>#last{
+            font-size: 15px;
+            text-align: center;
+            padding-top:2%;
+        }
+
+        #album{
+            padding:2%;
+            background-color: beige;
+        }
+
+        #albumIn{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-evenly;
+        }
+
+        #albumIn > div{
+            padding:1%;
+        }
+
+        .albumpic{
+            width:200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        #album > h2{
+            text-align: left;
+            padding-bottom:2%;
+            padding-left:3%;
+            font-weight: bold;
+            padding-top:3%;
+        }
+
+        @media screen and (max-width:768px){
+            #header > h1{
+                font-size:1.7em;
+                top:15%;
+            }
+
+            #brands{
+                width:70%;
+                height:200px;
+                left:5%;
+                top:40%;
+
+            }
+            #catalogue{
+                display:inline-block;
+                width:100%;
+            }
+
+            #product,#desc{
+                width:100%;
+                margin:0;
+                padding:5%;
+                padding-top:7%;
+                padding-bottom:7%;
+            }
+            #booth{
+                height: 500px;
+            }
+            #walk{
+                width:100%;
+                height:400px;
+                padding-bottom:5%;
+            }
+
+            #footer{
+                display:inline-block;
+            }
+            #video, #address{
+                width:100%;
+                padding:5%;
+            }
+
+            .navbar>#logo{
+              width:70%;
+            }
+
+        } -->
+ 
+
+        <!-- </style> -->
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <img id="logo" src="logo.png" alt="companylogo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -31,9 +277,6 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#product">Products</a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Partners</a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#booth">Exhibition Booth</a>
                   </li>
@@ -47,195 +290,174 @@
         </nav>
         <div id="header">
             <img id="banner" src="banner1.avif" alt="big banner">
-            <h1>Mechanical Device Agency <br> and Sole Distributor for <br> Hong Kong & China.</h1>
+            <h1>香港及中國代理﹑<br>經銷各國名廠機械設備 <br>
+                Mechanical Device Agency <br> and Distributor for <br> Hong Kong & China</h1>
             <img id="brands" src="brands.png" alt="">
         </div>
 
         <div id="about">
-            <div class="box">
-                <img class="icon" src="icon1.png" alt="icon">
-                <p>
-                    Supplying and Installing turf, irrigation system, as well as providing 
-                    maintenance services for golf course, stadium, landscape, etc.
-                </p>
-            </div>
-            <div class="box">
-                <img class="icon" src="icon2.png" alt="icon">
-                <p>
-                    Sole Distributor and Agency for the most well-known brands of mechanical 
-                    devices in Hong Kong and China
-                </p>
-            </div>
-            <div class="box" class="box">
-                <img class="icon" src="icon3.png" alt="icon">
-                <p>
-                    Providing consultant services for professional landscape design
-                </p>
-            </div>
-        </div>
-
-        <div id="video">
             <div class="container">
-                <div class="row test">
-                    <div class="col-lg-6">
-                        <video width="500px" height="300px" controls>
-                            <source src="TWTMovie.mp4" type="video/mp4">
-                        </video>
+                <div class="row">
+                    <div class="col-lg-4 vision">
+                        <img class="icon" src="icon1.png" alt="icon">
+                        <p>提供草坪護理設備及設備安裝的專業服務，業務範圍涉及高爾夫球場、體育館、足球場和城市園林綠化等。</p>
+                        <p>
+                            Supplying and Installing turf, irrigation system, as well as providing 
+                            maintenance services for golf course, stadium, landscape, etc.
+                        </p>
                     </div>
-                    <div class="col-lg-6 address">
-                        <h3>Global Power</h3>
-                        <p>Address : <br> Room A 2/F Trust Tower 68 <br> Johnston Road Wanchai Hong Kong</p>
-                        <p>Phone : +852 2117 8272</p>
-                        <p>Fax : +852 2467 1984</p>
+                    <div class="col-lg-4 vision line">
+                        <img class="icon" src="icon2.png" alt="icon">
+                        <p>代理及經銷各國名廠機械設備: 如大型草坪機械、球車、園林機器、草坪噴灌設備、草坪機械零配件、草種、肥料、藥劑等。</p>
+                        <p>
+                            Sole Distributor and Agency for the most well-known brands of mechanical 
+                            devices in Hong Kong and China
+                        </p>
+                    </div>
+                    <div class="col-lg-4 vision">
+                        <img class="icon" src="icon3.png" alt="icon">
+                        <p>提供草坪灌溉設計、系統改造、園林景觀設計、練習場設計、機械設備安裝及維修保養等各種專業服務</p>
+                        <p>
+                            Providing consultant services for professional landscape design
+                        </p>
                     </div>
                 </div>
-
             </div>
         </div>
         
-        <!-- <div id="product">
-            <h2>Products</h2>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner active">
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product1.jpeg" class="d-block w-100" alt="..."> </div>
+        <div id="booth">
+          <h2>Virtual Booth Exhibition</h2>
+          <iframe id="walk" style="border: none;" scrolling="no"
+              allowfullscreen allow="gyroscope; accelerometer; xr-spatial-tracking; vr;"
+              src="https://dalantia.shapespark.com/boothedited2/">
+          </iframe>
+      </div>
+
+        <div id="catalogue">
+            <div id="product">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="product" src="product1.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product2.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product3.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product4.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product5.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product6.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product7.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product8.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product9.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product10.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product11.jpeg" alt="product pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="product" src="product12.jpeg" alt="product pic">
+                      </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img id="poster" src="product2.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product3.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product4.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product5.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product6.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product7.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product8.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product9.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product10.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product11.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="product12.jpeg" class="d-block w-100" alt="..."> </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
+                   <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-target="carouselExampleControls" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-target="carouselExampleControls" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </button>
             </div>
-        </div> -->
-
-        <div id="product">
-            <h2>Products</h2>
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="poster" src="product1.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product2.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product3.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product4.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product5.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product6.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product7.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product8.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product9.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product10.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product11.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="poster" src="product12.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </button>
-              </div>
-
+            <div id="desc">
+              <h2>Our Products</h2>
+              <ol>
+                <li>Signage</li>
+                <li>T.W.T</li>
+                <li>Diamond Series</li>
+                <li>Practice Driving Range</li>
+                <li>Tee Area</li>
+                <li>Bag Racks</li>
+                <li>Turf Maintenance and Irrigation</li>
+                <li>Safety and Maintenance</li>
+                <li>Recycled Plastic Lumber</li>
+                <li>Bunker Rakes</li>
+                <li>Equipment and Replacement Parts</li>
+                <li>Hole Cutters and Accecories</li>
+              </ol>
+            </div>
         </div>
 
-        <div id="end">
-            <div class="sketchfab-embed-wrapper booth" id="booth"> 
-                <h2>Virtual Booth</h2>
-                <iframe id="walk" style="border: none;" scrolling="no"
-                allowfullscreen allow="gyroscope; accelerometer; xr-spatial-tracking; vr;"
-                src="https://dalantia.shapespark.com/boothedited/">
-            </iframe>
-            </div>
-
-            <div id="footer">
-                <p>Copyright © 2022 Global Power. All Rights Reserved</p>
-            </div>
-        </div>
         
+       
+        <div id="footer">
+          <div id="address">
+            <h2>Contact Us</h2>
+            <p>
+              香港灣仔皇后大道東43至59號東美中心4樓408室 <br>
+              Unit 408 on 4th Floor, Dominion Centre, <br>
+              Nos. 43-59 Queen’s Road East, <br>
+              Wanchai, Hong Kong. <br>
+              Tel:  (852) 2177 8272 
+            </p>
+            <p>
+              Fax:  (852) 2467 1984 <br>
+              Mobile:   9199 9075 <br>
+              Email:   nikichan@globalpowertech.com.hk
+            </p>
+            
+          </div>    
+            <div id="video">
+              <video controls>
+                <source src="TWTMovie.mp4" type="video/mp4">
+              </video>
+            </div>
+        </div>
+
+        <div id="album">
+          <h2>Completed Work Album</h2>
+          <div id="albumIn"> 
+            <div>
+              <h3>園藝及圍欄</h3>
+              <img class='albumpic' src="photo1.jpeg" alt="Work pic">
+              <img class='albumpic' src="photo2.jpeg" alt="Work pic">
+              <img class='albumpic' src="photo3.jpeg" alt="Work pic">
+            </div>
+            <div>
+              <h3>灌溉及排水</h3>
+              <img class='albumpic' src="photo4.jpeg" alt="Work pic">
+              <img class='albumpic' src="photo5.jpeg" alt="Work pic">
+              <img class='albumpic' src="photo6.jpeg" alt="Work pic">
+            </div>
+            <div>
+              <h3>組合屋</h3>
+              <img class='albumpic' src="photo7.jpeg" alt="Work pic">
+              <img class='albumpic' src="photo8.jpeg" alt="Work pic">
+              <img class='albumpic' src="photo9.jpeg" alt="Work pic">
+            </div>
+            <div>
+              <h3>草地及保養</h3>
+              <img class='albumpic' src="photo10.jpeg" alt="Work pic">
+              <img class='albumpic' src="photo11.jpeg" alt="Work pic">
+              <img class='albumpic' src="photo12.jpeg" alt="Work pic">
+            </div>
+          </div>
+          <p id="last">Copyright © 2022 Global Power International Limited. All Rights Reserved</p>
+        </div>
     </body>
 </html>
